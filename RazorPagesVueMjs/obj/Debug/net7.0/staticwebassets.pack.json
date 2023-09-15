@@ -245,12 +245,16 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\app.mjs",
-      "PackagePath": "staticwebassets\\mjs\\app.mjs"
+      "Id": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\chakra-theme\\buttonStyle.mjs",
+      "PackagePath": "staticwebassets\\mjs\\chakra-theme\\buttonStyle.mjs"
     },
     {
-      "Id": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\balls.mjs",
-      "PackagePath": "staticwebassets\\mjs\\balls.mjs"
+      "Id": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\chakra-theme\\inputStyle.mjs",
+      "PackagePath": "staticwebassets\\mjs\\chakra-theme\\inputStyle.mjs"
+    },
+    {
+      "Id": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\chakra-theme\\theme.mjs",
+      "PackagePath": "staticwebassets\\mjs\\chakra-theme\\theme.mjs"
     },
     {
       "Id": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\pages\\index.mjs",

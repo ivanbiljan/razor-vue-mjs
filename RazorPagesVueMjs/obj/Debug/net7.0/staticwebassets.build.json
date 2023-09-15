@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3JxT1QCrNHY5QetPlhTQ6tprgy1sdYXimdsb+DlTDc4=",
+  "Hash": "M8NUIiL7IL5DG+ZikBdb8X4l5ETlpvmyr+gZMWSSlLI=",
   "Source": "RazorPagesVueMjs",
   "BasePath": "_content/RazorPagesVueMjs",
   "Mode": "Default",
@@ -1071,12 +1071,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\app.mjs",
+      "Identity": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\chakra-theme\\buttonStyle.mjs",
       "SourceId": "RazorPagesVueMjs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\",
       "BasePath": "_content/RazorPagesVueMjs",
-      "RelativePath": "mjs/app.mjs",
+      "RelativePath": "mjs/chakra-theme/buttonStyle.mjs",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1085,15 +1085,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\mjs\\app.mjs"
+      "OriginalItemSpec": "wwwroot\\mjs\\chakra-theme\\buttonStyle.mjs"
     },
     {
-      "Identity": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\balls.mjs",
+      "Identity": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\chakra-theme\\inputStyle.mjs",
       "SourceId": "RazorPagesVueMjs",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\",
       "BasePath": "_content/RazorPagesVueMjs",
-      "RelativePath": "mjs/balls.mjs",
+      "RelativePath": "mjs/chakra-theme/inputStyle.mjs",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1102,7 +1102,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\mjs\\balls.mjs"
+      "OriginalItemSpec": "wwwroot\\mjs\\chakra-theme\\inputStyle.mjs"
+    },
+    {
+      "Identity": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\chakra-theme\\theme.mjs",
+      "SourceId": "RazorPagesVueMjs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\",
+      "BasePath": "_content/RazorPagesVueMjs",
+      "RelativePath": "mjs/chakra-theme/theme.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mjs\\chakra-theme\\theme.mjs"
     },
     {
       "Identity": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\pages\\index.mjs",
