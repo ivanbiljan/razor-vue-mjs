@@ -7,6 +7,29 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
     <link rel="stylesheet" href="~/RazorPagesVueMjs.styles.css" asp-append-version="true"/>
+    
+    <script>
+        /* chakra attempts to read the process for whatever reason */
+        const process = {
+            env: {}
+        };
+    </script>
+    
+    @Html.MapImports(new Dictionary<string, (string Development, string Production)>
+    {
+        ["vue"] = ("https://unpkg.com/vue@2.7.14/dist/vue.esm.browser.js", "https://unpkg.com/vue@3.3.4/dist/vue.esm-browser.prod.js"),
+        ["stylis"] = ("https://unpkg.com/stylis@4.3.0/dist/stylis.mjs", "https://unpkg.com/browse/stylis@4.3.0/dist/umd/stylis.js"),
+        ["@emotion/unitless"] = ("https://unpkg.com/@emotion/unitless@0.8.1/dist/emotion-unitless.esm.js", ""),
+        ["@emotion/hash"] = ("https://unpkg.com/@emotion/hash@0.9.1/dist/emotion-hash.esm.js", ""),
+        ["@emotion/weak-memoize"] = ("https://unpkg.com/@emotion/weak-memoize@0.3.1/dist/emotion-weak-memoize.esm.js", "https://unpkg.com/@emotion/weak-memoize@1.2.2/dist/emotion-sheet.browser.esm.js"),
+        ["@emotion/memoize"] = ("https://unpkg.com/@emotion/memoize@0.8.1/dist/emotion-memoize.esm.js", "https://unpkg.com/@emotion/memoize@1.2.2/dist/emotion-sheet.browser.esm.js"),
+        ["@emotion/sheet"] = ("https://unpkg.com/@emotion/sheet@1.2.2/dist/emotion-sheet.browser.esm.js", "https://unpkg.com/@emotion/sheet@1.2.2/dist/emotion-sheet.browser.esm.js"),
+        ["@emotion/utils"] = ("https://unpkg.com/@emotion/utils@1.2.1/dist/emotion-utils.browser.esm.js", "https://unpkg.com/@emotion/utils@1.2.1/dist/emotion-utils.browser.esm.js"),
+        ["@emotion/serialize"] = ("https://unpkg.com/@emotion/serialize@1.1.2/dist/emotion-serialize.browser.esm.js", "https://unpkg.com/@emotion/serialize@1.1.2/dist/emotion-serialize.browser.esm.js"),
+        ["@emotion/cache"] = ("https://unpkg.com/@emotion/cache@11.11.0/dist/emotion-cache.browser.esm.js", "https://unpkg.com/@emotion/cache@11.11.0/dist/emotion-cache.browser.esm.js"),
+        ["@emotion/css"] = ("https://unpkg.com/@emotion/css@11.11.2/dist/emotion-css.esm.js", "https://unpkg.com/browse/@emotion/css@11.11.2/dist/emotion-css.umd.min.js"),
+        ["@chakra"] = ("https://unpkg.com/@chakra-ui/vue@0.13.1/dist/esm/index.js", "https://unpkg.com/@chakra-ui/vue@0.13.1/dist/esm/index.js")
+    })
 </head>
 <body>
 <header>

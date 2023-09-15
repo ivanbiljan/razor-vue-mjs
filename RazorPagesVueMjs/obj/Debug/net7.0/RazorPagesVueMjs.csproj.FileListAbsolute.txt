@@ -29,3 +29,4 @@ D:\Source\Repos\RazorPagesVueMjs\RazorPagesVueMjs\obj\Debug\net7.0\refint\RazorP
 D:\Source\Repos\RazorPagesVueMjs\RazorPagesVueMjs\obj\Debug\net7.0\RazorPagesVueMjs.pdb
 D:\Source\Repos\RazorPagesVueMjs\RazorPagesVueMjs\obj\Debug\net7.0\RazorPagesVueMjs.genruntimeconfig.cache
 D:\Source\Repos\RazorPagesVueMjs\RazorPagesVueMjs\obj\Debug\net7.0\ref\RazorPagesVueMjs.dll
+D:\Source\Repos\RazorPagesVueMjs\RazorPagesVueMjs\bin\Debug\net7.0\package.json

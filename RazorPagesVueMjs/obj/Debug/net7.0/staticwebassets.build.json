@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JGGRMB7ynLwklR629onHvEX3n58S3ev8hVvsRqRxocg=",
+  "Hash": "3JxT1QCrNHY5QetPlhTQ6tprgy1sdYXimdsb+DlTDc4=",
   "Source": "RazorPagesVueMjs",
   "BasePath": "_content/RazorPagesVueMjs",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\mjs\\balls.mjs"
+    },
+    {
+      "Identity": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\mjs\\pages\\index.mjs",
+      "SourceId": "RazorPagesVueMjs",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Source\\Repos\\RazorPagesVueMjs\\RazorPagesVueMjs\\wwwroot\\",
+      "BasePath": "_content/RazorPagesVueMjs",
+      "RelativePath": "mjs/pages/index.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mjs\\pages\\index.mjs"
     }
   ]
 }

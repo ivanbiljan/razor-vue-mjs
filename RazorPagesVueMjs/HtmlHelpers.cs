@@ -18,9 +18,11 @@ public static class HtmlHelpers
             parsedMap[importAlias] = isDevelopment ? developmentImport : productionImport;
         }
         
-        var importMapScript = $"""
+        var importMapScript = $$"""
                               <script type="importmap">
-                                  ${JsonSerializer.Serialize(parsedMap)}
+                              {
+                                "imports": {{JsonSerializer.Serialize(parsedMap)}}
+                              }
                               </script>
                               """;
 

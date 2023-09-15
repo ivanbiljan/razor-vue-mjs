@@ -7,9 +7,13 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+    <div id="index">
+        <index/>
+    </div>
 </div>
 
 <script type="module">
-    import {callBalls} from "/mjs/app.mjs";
-    callBalls();
+    import {mount} from "/mjs/app.mjs";
+    mount("#index");
 </script>
