@@ -1,0 +1,1 @@
+﻿export const balls = () => console.log("balls");
